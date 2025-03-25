@@ -55,9 +55,23 @@ st.markdown("**NOTE : Use two stake amounts and bet the amount after filling the
 # Input for total pool amount (user-defined)
 pool = st.number_input("Enter Your Total Betting Pool Amount in Dollar ( NOTE: To have max profit and less risk use 25$ )", value=25.0)
 
-# Input fields for team names
-team1 = st.text_input("Enter Team 1 Name")
-team2 = st.text_input("Enter Team 2 Name")
+# List of IPL teams
+ipl_teams = [
+    "Chennai Super Kings (CSK)",
+    "Mumbai Indians (MI)",
+    "Kolkata Knight Riders (KKR)",
+    "Rajasthan Royals (RR)",
+    "Royal Challengers Bengaluru (RCB)",
+    "Sunrisers Hyderabad (SRH)",
+    "Lucknow Super Giants (LSG)",
+    "Gujarat Titans (GT)",
+    "Delhi Capitals (DC)",
+    "Punjab Kings (PK)"
+]
+
+# Dropdowns for selecting teams
+team1 = st.selectbox("Select Team 1", ipl_teams)
+team2 = st.selectbox("Select Team 2", ipl_teams)
 
 # Input fields for multipliers (no constraints)
 multiplier1 = st.number_input(f"Enter Multiplier for {team1}", value=1.5)
