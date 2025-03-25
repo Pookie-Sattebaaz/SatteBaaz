@@ -72,8 +72,8 @@ with col1:
         crypto_bet2 = (pool / multiplier2) * crypto_per_dollar
 
         st.subheader("Crypto Betting Amounts")
-        st.write(f"**Bet amount on {team1}:** {crypto_bet1:.12f} BTC")
-        st.write(f"**Bet amount on {team2}:** {crypto_bet2:.12f} BTC")
+        st.write(f"**Bet amount on {team1}:** {crypto_bet1:.5f} BTC")
+        st.write(f"**Bet amount on {team2}:** {crypto_bet2:.5f} BTC")
 
 
 with col2:
