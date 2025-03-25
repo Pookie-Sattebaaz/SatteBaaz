@@ -93,8 +93,12 @@ if st.button("Additional Details"):
 
     st.subheader("Additional Details")
 
-    st.write(f"**Maximum Profit:** ₹{max_profit:.3f}")
-    st.write(f"**Maximum Loss:** ₹{loss_team1:.3f}")
+    st.write(f"**Maximum Profit (Both ID):** ₹{max_profit:.3f}")
+    st.write(f"**Maximum Loss (BOTH ID):** ₹{loss_team1:.3f}")
+    st.write(f"**Maximum Profit (Single ID):** ₹{max_profit/2:.3f}")
+    st.write(f"**Maximum Loss (Single ID):** ₹{loss_team1/2:.3f}")
+
+
 
 
 
