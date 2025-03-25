@@ -99,4 +99,4 @@ if st.button("Additional Details"):
 
 
 # Footer with creator credit
-st.markdown("<p class='footer'>Yeah website Famous Sattebaaz <b>Aditya Sarkar</b> ne banayi hai</p>", unsafe_allow_html=True)
+st.markdown("<p class='footer'>Yeah website Famous Sattebaaz <b>Sattori Baba</b> ne banayi hai</p>", unsafe_allow_html=True)
