@@ -50,7 +50,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 #################
 
-st.markdown("**Use two stake amounts and bet the amount after filling the multiplier to get the results in 'Additional Details.'**")
+st.markdown("**NOTE :Use two stake amounts and bet the amount after filling the multiplier to get the results in 'Additional Details.'**")
 
 # Input for total pool amount (user-defined)
 pool = st.number_input("Enter Your Total Betting Pool Amount in Dollar ( NOTE: To have max profit and less risk use 25$ )", value=25.0)
