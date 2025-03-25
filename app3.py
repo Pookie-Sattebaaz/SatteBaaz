@@ -57,16 +57,16 @@ pool = st.number_input("Enter Your Total Betting Pool Amount in Dollar ( NOTE: T
 
 # List of IPL teams
 ipl_teams = [
-    "Chennai Super Kings (CSK)",
-    "Mumbai Indians (MI)",
-    "Kolkata Knight Riders (KKR)",
-    "Rajasthan Royals (RR)",
-    "Royal Challengers Bengaluru (RCB)",
-    "Sunrisers Hyderabad (SRH)",
-    "Lucknow Super Giants (LSG)",
-    "Gujarat Titans (GT)",
-    "Delhi Capitals (DC)",
-    "Punjab Kings (PK)"
+    "Chennai Super Kings",
+    "Mumbai Indians",
+    "Kolkata Knight Riders",
+    "Rajasthan Royals",
+    "Royal Challengers Bengaluru",
+    "Sunrisers Hyderabad",
+    "Lucknow Super Giants",
+    "Gujarat Titans",
+    "Delhi Capitals",
+    "Punjab Kings"
 ]
 
 # Dropdowns for selecting teams
